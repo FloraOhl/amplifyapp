@@ -1,0 +1,7 @@
+.box {
+    background-image: url(background.jpg);
+    padding: 200px 100px;
+}
+p{
+    color: white;
+}

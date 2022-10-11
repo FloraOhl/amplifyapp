@@ -1,0 +1,38 @@
+:root {
+    --first-paragraph:#2323ff;
+    --second-paragraph:#f23400;
+    --paragraph-mobile:1.4rem;
+    --paragraph-tablet: 1.6rem;
+    --paragraph-desktop: 1.8rem;
+
+}
+.first{
+    color:var(--first-paragraph);
+}
+ .second{
+    color:var(--second-paragraph);
+ }
+
+ @media(min-width: 576px){
+    .first,
+    .second{
+        font-size: var(--paragraph-mobile);
+
+    }
+ }
+  @media(min-width: 576px) {
+
+      .first,
+      .second {
+          font-size: var(--paragraph-tablet);
+
+      }
+  }
+  @media(min-width: 992px) {
+
+      .first,
+      .second {
+          font-size: var(--paragraph-desktop);
+
+      }
+  }

@@ -1,0 +1,27 @@
+
+h1{
+    font-size: 21px;
+    color: blue;
+}
+/* this is css comments*/
+/* there are 3 different parts in box model
+ margins: empty space around my element
+ border : border/stroke around my element
+ padding empty space WITH background around my element */
+.box{
+    background: pink;
+    width: 300px;
+    margin: 50px;
+    border-width: 5px;
+    border-style: solid;
+
+    border-right-width: 10px;
+    border-right-style: solid;
+    border-right-color: red;
+
+    border-left-width: 10px;
+    border-left-style: solid;
+    border-left-color: green;
+
+ 
+}

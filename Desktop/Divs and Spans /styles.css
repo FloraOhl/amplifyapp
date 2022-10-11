@@ -1,0 +1,20 @@
+
+
+.top-section {
+    background:pink ;
+    width: 500px;
+
+}
+.bottom-section{
+    background: rgb(198, 229, 198);
+}
+.intro{
+    font-size: 30px;
+}
+.highlight{
+    background: red;
+
+}
+.accent-color{
+    color: blue;
+}
