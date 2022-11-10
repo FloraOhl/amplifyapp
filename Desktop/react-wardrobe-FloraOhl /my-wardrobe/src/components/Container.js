@@ -110,7 +110,7 @@ const Container = () => {
       setError(error.message)
     }
   }
- 
+
   return (
     <div className='Container'>
       {/* Pass the state weather as props to the component */}
